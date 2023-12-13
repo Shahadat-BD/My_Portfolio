@@ -2,15 +2,15 @@ import React from 'react';
 import logo from '../../assets/logo.png'
 const Navbar = () => {
   const link = <>
-          <a href="#banner"><li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-black bg-blue-500 rounded-md py-1 lg:py-0  font-semibold text-lg'>Home</li></a>
-          <a href="#about"> <li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-black bg-blue-500 rounded-md py-1 lg:py-0  font-semibold text-lg'>About</li></a>
-          <a href="#contact"><li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-black bg-blue-500 rounded-md py-1 lg:py-0  font-semibold text-lg'>Contact</li></a>
-          <a href="#project"><li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-black bg-blue-500 rounded-md py-1 lg:py-0  font-semibold text-lg'>Project</li></a>
-          <a href="#education"> <li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-black bg-blue-500 rounded-md py-1 lg:py-0  font-semibold text-lg'>Education</li></a>
- 
+          <a href="#banner"><li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-[#1A2739] bg-[#9D53E7] rounded-md py-1 lg:py-0  font-semibold text-lg'>Home</li></a>
+          <a href="#about"> <li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-[#1A2739] bg-[#9D53E7] rounded-md py-1 lg:py-0  font-semibold text-lg'>About</li></a>
+          <a href="#contact"><li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-[#1A2739] bg-[#9D53E7] rounded-md py-1 lg:py-0  font-semibold text-lg'>Contact</li></a>
+          <a href="#project"><li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-[#1A2739] bg-[#9D53E7] rounded-md py-1 lg:py-0  font-semibold text-lg'>Project</li></a>
+          <a href="#education"> <li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-[#1A2739] bg-[#9D53E7] rounded-md py-1 lg:py-0  font-semibold text-lg'>Education</li></a>
+        
    </>
     return (
-        <div className="navbar bg-black lg:px-16 px-5 fixed z-20">
+        <div className="navbar bg-[#1A2739] lg:px-16 px-5 fixed z-20">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn lg:hidden text-black bg-white">
