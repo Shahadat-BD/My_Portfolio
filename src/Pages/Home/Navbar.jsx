@@ -2,11 +2,12 @@ import React from 'react';
 import logo from '../../assets/logo.png'
 const Navbar = () => {
   const link = <>
-          <li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-black bg-blue-500 rounded-md py-1 lg:py-0  font-semibold text-lg'>Home</li>
-          <li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-black bg-blue-500 rounded-md py-1 lg:py-0  font-semibold text-lg'>About</li>
-          <li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-black bg-blue-500 rounded-md py-1 lg:py-0  font-semibold text-lg'>Contact</li>
-          <li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-black bg-blue-500 rounded-md py-1 lg:py-0  font-semibold text-lg'>Project</li>
-          <li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-black bg-blue-500 rounded-md py-1 lg:py-0  font-semibold text-lg'>Education</li>
+          <a href="#banner"><li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-black bg-blue-500 rounded-md py-1 lg:py-0  font-semibold text-lg'>Home</li></a>
+          <a href="#about"> <li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-black bg-blue-500 rounded-md py-1 lg:py-0  font-semibold text-lg'>About</li></a>
+          <a href="#contact"><li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-black bg-blue-500 rounded-md py-1 lg:py-0  font-semibold text-lg'>Contact</li></a>
+          <a href="#project"><li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-black bg-blue-500 rounded-md py-1 lg:py-0  font-semibold text-lg'>Project</li></a>
+          <a href="#education"> <li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-black bg-blue-500 rounded-md py-1 lg:py-0  font-semibold text-lg'>Education</li></a>
+ 
    </>
     return (
         <div className="navbar bg-black lg:px-16 px-5 fixed z-20">

@@ -5,7 +5,7 @@ import Navbar from '../Navbar';
 import resume from "./Shahadat's_Resume_for_Front-end_Web_Developer.pdf"
 const Banner = () => {
     return (
-        <div className=''> 
+        <div id='banner'> 
              <Navbar/>
             <div className='banner-design'>
                 <div className='lg:px-16 px-5'>
