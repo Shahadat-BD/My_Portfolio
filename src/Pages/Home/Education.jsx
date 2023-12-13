@@ -2,8 +2,8 @@ import React from 'react';
 import education from '../../assets/images/education.png'
 const Education = () => {
     return (
-        <div className='lg:w-4/5 w-full m-auto mb-8' id='education'>
-            <h1 className='text-[#ED5671] font-bold text-4xl text-center py-8'> Education Qualification </h1>
+        <div className='lg:w-4/5 w-full m-auto pb-8' id='education'>
+            <h1 className='text-[#ED5671] font-bold lg:text-4xl text-2xl text-center lg:py-12 py-5'> Education Qualification </h1>
             <ul className="timeline text-white timeline-snap-icon max-md:timeline-compact timeline-vertical">
                 <li>
                     <div className="timeline-middle">
@@ -40,7 +40,7 @@ const Education = () => {
                     <div className="timeline-start md:text-end  mb-10 mr-5 border-b-2 border-gray-500 rounded-md pb-5">
                         <div className="lg:text-2xl text-xl font-black">Dhakil in general group </div>
                         <p className='font-medium text-lg my-2'>Urkirchar Gausia sunnia Madrasah</p>
-                        <div className='flex items-center justify-end gap-8'>
+                        <div className='flex items-center lg:justify-end  gap-8'>
                           <time className="font-mono italic">2019 - 2020</time>
                           <p>GPA : 4.75/5</p>
                       </div>

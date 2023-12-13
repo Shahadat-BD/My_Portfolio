@@ -1,5 +1,5 @@
 import React from 'react';
-import myImage from '../../../assets/images/shahadat.png'
+import myImage from '../../../assets/images/shahadat-1.png'
 import './Banner.css'
 import Navbar from '../Navbar';
 import resume from "./Shahadat's_Resume_for_Front-end_Web_Developer.pdf"

@@ -4,6 +4,7 @@ const Navbar = () => {
   const link = <>
           <a href="#banner"><li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-[#1A2739] bg-[#9D53E7] rounded-md py-1 lg:py-0  font-semibold text-lg'>Home</li></a>
           <a href="#about"> <li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-[#1A2739] bg-[#9D53E7] rounded-md py-1 lg:py-0  font-semibold text-lg'>About</li></a>
+          <a href="#skill"> <li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-[#1A2739] bg-[#9D53E7] rounded-md py-1 lg:py-0  font-semibold text-lg'>Skill</li></a>
           <a href="#contact"><li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-[#1A2739] bg-[#9D53E7] rounded-md py-1 lg:py-0  font-semibold text-lg'>Contact</li></a>
           <a href="#project"><li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-[#1A2739] bg-[#9D53E7] rounded-md py-1 lg:py-0  font-semibold text-lg'>Project</li></a>
           <a href="#education"> <li className='lg:ml-8 mb-4 lg:text-left text-center lg:text-white  lg:bg-[#1A2739] bg-[#9D53E7] rounded-md py-1 lg:py-0  font-semibold text-lg'>Education</li></a>
