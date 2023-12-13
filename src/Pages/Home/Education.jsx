@@ -2,8 +2,8 @@ import React from 'react';
 import education from '../../assets/images/education.png'
 const Education = () => {
     return (
-        <div className='w-4/5 m-auto' id='education'>
-            <h1 className='text-[#DF5586] font-bold text-3xl text-center my-8'> Education Qualification </h1>
+        <div className='w-4/5 m-auto mb-8' id='education'>
+            <h1 className='text-[#DF5586] font-bold text-3xl text-center py-8'> Education Qualification </h1>
             <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
                 <li>
                     <div className="timeline-middle">
