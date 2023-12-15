@@ -4,6 +4,7 @@ import Banner from './Banner/Banner';
 import Education from './Education';
 import WhatIDo from './WhatIDo';
 import Skill from './Skill';
+import Services from './services';
 // import Contact from './Contact';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
                 <WhatIDo/>
                 <Skill/>
                 <About/>
+                <Services/>
                 <Education/>
             
                 {/* <Contact/> */}
