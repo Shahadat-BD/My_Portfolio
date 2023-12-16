@@ -5,6 +5,7 @@ import Education from './Education';
 import WhatIDo from './WhatIDo';
 import Skill from './Skill';
 import Services from './services';
+import Project from './Project';
 // import Contact from './Contact';
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
                 <Skill/>
                 <About/>
                 <Services/>
+                <Project/>
                 <Education/>
             
                 {/* <Contact/> */}
