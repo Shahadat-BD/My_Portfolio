@@ -10,8 +10,8 @@ const Services = () => {
             <p className='text-white text-xl font-bold'>How I cater to the client's needs</p>
             </div>
            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4'>
-           <div className='bg-[#ED5671] text-white rounded-md p-5 '>
-                <img className='w-32 m-auto h-32' src={web_1} alt="" srcset="" />
+           <div className='hover:bg-[#ED5671] text-white bg-[#1A2739] cursor-pointer rounded-md p-5 '>
+                <img className='w-32  h-32' src={web_1} alt="" srcset="" />
                 <h3 className='text-2xl font-bold my-3'>Front-End Development</h3>
                 <ul>
                     <li>-Responsive web design</li>
@@ -19,8 +19,8 @@ const Services = () => {
                     <li>-Cross-Browser Compatibility</li>
                 </ul>
             </div>
-            <div className='bg-[#A153E1] text-white rounded-md p-5 '>
-                 <img className='w-32 m-auto h-32' src={web_2} alt="" srcset="" />
+            <div className='hover:bg-[#A153E1] text-white bg-[#1A2739] cursor-pointer rounded-md p-5 '>
+                 <img className='w-32  h-32' src={web_2} alt="" srcset="" />
                  <h3 className='text-2xl font-bold my-3'>Web development</h3>
                 <ul>
                     <li>-Secure HTTPS Connection</li>
@@ -28,8 +28,8 @@ const Services = () => {
                     <li>-Fast Loading Speed</li>
                 </ul>
             </div>
-            <div className='bg-[#e88c0b] text-white rounded-md p-5 '>
-                 <img className='w-32 m-auto h-32' src={web_3} alt="" srcset="" />
+            <div className='hover:bg-[#e88c0b] text-white bg-[#1A2739] cursor-pointer rounded-md p-5 '>
+                 <img className='w-32  h-32' src={web_3} alt="" srcset="" />
                  <h3 className='text-2xl font-bold my-3'>MERN stack development</h3>
                  <ul>
                     <li>-RESTful API Development</li>
