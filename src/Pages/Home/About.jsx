@@ -29,8 +29,8 @@ const About = () => {
                     </div>
                 </div>
                 
-                <button className='bg-[#f64765] text-white px-5 py-2 rounded-md font-bold mr-5'><a href="https://github.com/Shahadat-BD" target='https://github.com/Shahadat-BD'><FaGithub className='float-left items-center text-xl mt-[2px] mr-2'/>Github</a></button>
-                <button className='hover:bg-[#f64765]  hover:text-white border border-[#f65765] text-[#f65765] px-5 py-2 rounded-md font-bold '><a href="https://drive.google.com/file/d/1UEsuZdLKqQVek_10X_YZ-ea0VsFoZFbE/view?usp=sharing" target='https://drive.google.com/file/d/1UEsuZdLKqQVek_10X_YZ-ea0VsFoZFbE/view?usp=sharing' ><FaRegAddressCard className='float-left items-center text-xl mt-[2px] mr-2'/> Resume</a></button>
+               <a href="https://github.com/Shahadat-BD" target='https://github.com/Shahadat-BD'><button className='bg-[#f64765] text-white px-5 py-2 rounded-md font-bold mr-5'> <FaGithub className='float-left items-center text-xl mt-[2px] mr-2'/>  Github </button></a>
+            <a href="https://drive.google.com/file/d/1UEsuZdLKqQVek_10X_YZ-ea0VsFoZFbE/view?usp=sharing" target='https://drive.google.com/file/d/1UEsuZdLKqQVek_10X_YZ-ea0VsFoZFbE/view?usp=sharing' ><button className='hover:bg-[#f64765]  hover:text-white border border-[#f65765] text-[#f65765] px-5 py-2 rounded-md font-bold '><FaRegAddressCard className='float-left items-center text-xl mt-[2px] mr-2'/>  Resume</button></a>
              
               </div>
             </div>

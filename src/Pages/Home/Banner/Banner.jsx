@@ -21,7 +21,10 @@ const Banner = () => {
                                 <button className='bg-[#ED5671] mt-5 text-white rounded-md px-3 lg:py-3 py-2 font-bold text-md'>  
                                 Download CV <FaCloudDownloadAlt className='float-right items-center text-2xl ml-3'/></button>
                             </a>
-                            <button className='hover:bg-[#ED5671] border border-[#ED5671] mt-5 text-white rounded-md px-3 lg:py-3 py-2 font-bold text-md ml-5'>Hire Me <FaArrowCircleRight className='float-right items-center text-xl mt-[3px] ml-3'/></button>
+                            {/* id='#contact' */}
+                          <a href="#contact">
+                          <button className='hover:bg-[#ED5671] border border-[#ED5671] mt-5 text-white rounded-md px-3 lg:py-3 py-2 font-bold text-md ml-5'>Hire Me <FaArrowCircleRight className='float-right items-center text-xl mt-[3px] ml-3'/></button>
+                          </a>
                         </div>
                         <div>
                             <img className='rounded-3xl w-full lg:mt-0 mt-20' src={myImage} alt="" srcset="" />

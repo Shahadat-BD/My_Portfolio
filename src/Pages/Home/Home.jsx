@@ -6,6 +6,8 @@ import WhatIDo from './WhatIDo';
 import Skill from './Skill';
 import Services from './services';
 import Project from './Project';
+import Contact from './Contact';
+import Footer from './Footer';
 // import Contact from './Contact';
 
 const Home = () => {
@@ -19,9 +21,9 @@ const Home = () => {
                 <Project/>
                 <Services/>
                 <Education/>
-            
-                {/* <Contact/> */}
+                <Contact/>
            </div>
+           <Footer/>
         </div>
     );
 };

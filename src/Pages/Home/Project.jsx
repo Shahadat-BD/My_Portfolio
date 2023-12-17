@@ -9,7 +9,7 @@ const Project = () => {
         <div id='project'>
             <h1 className='text-center font-bold mb-10 lg:text-4xl text-2xl text-[#F65765]'> My Project </h1>
             {/* project one */}
-            <div className='flex lg:flex-row flex-col gap-8 bg-[#1A2739] text-white p-6 rounded-md mb-5'>
+            <div className='flex lg:flex-row flex-col gap-8 bg-[#1A2739] text-white p-6 border-l-4 border-[#F65765] rounded-md mb-5'>
                  <img className='lg:w-[40%] w-full rounded-md' src={project_2} alt="" />
                  <div className='flex-1'>
                       <h3 className='text-2xl font-extrabold mb-3'>Pet Adoption management application </h3>
@@ -26,12 +26,12 @@ const Project = () => {
                         <button className='bg-[#0f447dca] text-xs text-white rounded-md font-bold px-5 py-2 mr-2 mb-2'>TailwindCSS</button>
                         </div>
                       <button className='bg-[#f64765] text-white px-5 py-2 rounded-md font-bold mr-5'><a href="https://github.com/Shahadat-BD/pet-adoption-client-side.git" target='https://github.com/Shahadat-BD/pet-adoption-client-side.git'><FaGithub className='float-left items-center text-xl mt-[2px] mr-2'/>Github</a></button>
-                      <button className='bg-[#f64765] text-white px-5 py-2 rounded-md font-bold mr-5'><a href="https://pet-adoption-auth-1c311.web.app/" target='https://pet-adoption-auth-1c311.web.app/'><CgWebsite className='float-left items-center text-xl mt-[2px] mr-2'/>Live site</a></button>
+                      <button className='hover:bg-[#f64765]  hover:text-white border border-[#f65765] text-[#f65765] px-5 py-2 rounded-md font-bold mr-5'><a href="https://pet-adoption-auth-1c311.web.app/" target='https://pet-adoption-auth-1c311.web.app/'><CgWebsite className='float-left items-center text-xl mt-[2px] mr-2'/>Live site</a></button>
              
                  </div>
             </div>
             {/* project two */}
-            <div className='flex lg:flex-row flex-col gap-8 bg-[#1A2739] text-white p-6 rounded-md mb-5'>
+            <div className='flex lg:flex-row flex-col gap-8 bg-[#1A2739] text-white p-6 border-l-4 border-[#A153E1] rounded-md mb-5'>
                  <img className='lg:w-[40%] w-full rounded-md' src={project_1} alt="" />
                  <div className='flex-1'>
                       <h3 className='text-2xl font-extrabold mb-3'>Library management system </h3>
@@ -48,11 +48,11 @@ const Project = () => {
                         <button className='bg-[#0f447dca] text-xs text-white rounded-md font-bold px-5 py-2 mr-2 mb-2'>TailwindCSS</button>
                         </div>
                       <button className='bg-[#f64765] text-white px-5 py-2 rounded-md font-bold mr-5'><a href="https://github.com/Shahadat-BD/library-management-client-side.git" target='https://github.com/Shahadat-BD/library-management-client-side.git'><FaGithub className='float-left items-center text-xl mt-[2px] mr-2'/>Github</a></button>
-                      <button className='bg-[#f64765] text-white px-5 py-2 rounded-md font-bold mr-5'><a href="https://bookstack-auth-7442e.web.app/" target='https://bookstack-auth-7442e.web.app/'><CgWebsite className='float-left items-center text-xl mt-[2px] mr-2'/>Live site</a></button>
+                      <button className='hover:bg-[#f64765]  hover:text-white border border-[#f65765] text-[#f65765] px-5 py-2 rounded-md font-bold mr-5'><a href="https://bookstack-auth-7442e.web.app/" target='https://bookstack-auth-7442e.web.app/'><CgWebsite className='float-left items-center text-xl mt-[2px] mr-2'/>Live site</a></button>
                  </div>
             </div>
             {/* project three */}
-            <div className='flex lg:flex-row flex-col gap-8 bg-[#1A2739] text-white p-8 rounded-md mb-5'>
+            <div className='flex lg:flex-row flex-col gap-8 bg-[#1A2739] text-white p-6 border-l-4 border-[#e88c0b] rounded-md mb-5'>
                  <img className='lg:w-[40%] w-full rounded-md' src={project_3} alt="" />
                  <div className='flex-1'>
                       <h3 className='text-2xl font-extrabold mb-3'>Online BD-Shop</h3>
@@ -68,7 +68,7 @@ const Project = () => {
                         <button className='bg-[#0f447dca] text-xs text-white rounded-md font-bold px-5 py-2 mr-2 mb-2'>TailwindCSS</button>
                         </div>
                       <button className='bg-[#f64765] text-white px-5 py-2 rounded-md font-bold mr-5'><a href="https://github.com/Shahadat-BD/brandShop-client-side.git" target='https://github.com/Shahadat-BD/brandShop-client-side.git'><FaGithub className='float-left items-center text-xl mt-[2px] mr-2'/>Github</a></button>
-                      <button className='bg-[#f64765] text-white px-5 py-2 rounded-md font-bold mr-5'><a href="https://e-commerce-brand-shop.web.app/" target='https://e-commerce-brand-shop.web.app/'><CgWebsite className='float-left items-center text-xl mt-[2px] mr-2'/>Live site</a></button>
+                      <button className='hover:bg-[#f64765]  hover:text-white border border-[#f65765] text-[#f65765] px-5 py-2 rounded-md font-bold mr-5'><a href="https://e-commerce-brand-shop.web.app/" target='https://e-commerce-brand-shop.web.app/'><CgWebsite className='float-left items-center text-xl mt-[2px] mr-2'/>Live site</a></button>
                  </div>
             </div>
         </div>
