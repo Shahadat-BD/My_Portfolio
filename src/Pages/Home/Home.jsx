@@ -16,8 +16,8 @@ const Home = () => {
                 <WhatIDo/>
                 <Skill/>
                 <About/>
-                <Services/>
                 <Project/>
+                <Services/>
                 <Education/>
             
                 {/* <Contact/> */}

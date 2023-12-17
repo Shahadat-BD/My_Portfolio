@@ -11,8 +11,8 @@ const Services = () => {
             </div>
            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4'>
            <div className='hover:bg-[#ED5671] text-white bg-[#1A2739] cursor-pointer rounded-md p-5 '>
-                <img className='w-32  h-32' src={web_1} alt="" srcset="" />
-                <h3 className='text-2xl font-bold my-3'>Front-End Development</h3>
+                <img className='w-28  h-28' src={web_1} alt="" srcset="" />
+                <h3 className='text-2xl font-bold mb-1 mt-4'>Front-End Development</h3>
                 <ul>
                     <li>-Responsive web design</li>
                     <li>-Interactive User Interfaces (UI)</li>
@@ -20,8 +20,8 @@ const Services = () => {
                 </ul>
             </div>
             <div className='hover:bg-[#A153E1] text-white bg-[#1A2739] cursor-pointer rounded-md p-5 '>
-                 <img className='w-32  h-32' src={web_2} alt="" srcset="" />
-                 <h3 className='text-2xl font-bold my-3'>Web development</h3>
+                 <img className='w-28  h-28' src={web_2} alt="" srcset="" />
+                 <h3 className='text-2xl font-bold mb-1 mt-4'>Web development</h3>
                 <ul>
                     <li>-Secure HTTPS Connection</li>
                     <li>-Cross-Browser Compatibility</li>
@@ -29,8 +29,8 @@ const Services = () => {
                 </ul>
             </div>
             <div className='hover:bg-[#e88c0b] text-white bg-[#1A2739] cursor-pointer rounded-md p-5 '>
-                 <img className='w-32  h-32' src={web_3} alt="" srcset="" />
-                 <h3 className='text-2xl font-bold my-3'>MERN stack development</h3>
+                 <img className='w-28  h-28' src={web_3} alt="" srcset="" />
+                 <h3 className='text-2xl font-bold mb-1 mt-4'>MERN stack development</h3>
                  <ul>
                     <li>-RESTful API Development</li>
                     <li>-Authentication and Authorization</li>
