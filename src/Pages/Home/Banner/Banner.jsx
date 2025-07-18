@@ -1,5 +1,5 @@
 import React from 'react';
-import myImage from '../../../assets/images/shahadat-1.png'
+import myImage from '../../../assets/images/footer-img.png'
 import './Banner.css'
 import Navbar from '../Navbar';
 import resume from "./Shahadat's_Resume_for_Front-end_Web_Developer.pdf"
@@ -27,7 +27,7 @@ const Banner = () => {
                           </a>
                         </div>
                         <div>
-                            <img className='rounded-3xl w-full lg:mt-0 mt-20' src={myImage} alt="" srcset="" />
+                            <img className='rounded-3xl lg:w-[600px] lg:h-[450px] lg:mt-0 mt-20 ' src={myImage} alt="" srcset="" />
                         </div>
                     </div>
                 </div>

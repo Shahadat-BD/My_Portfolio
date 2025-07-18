@@ -1,5 +1,5 @@
 import React from 'react';
-import shahadat from '../../assets/images/shahadat.png'
+import shahadat from '../../assets/images/shahadat-3.jpg'
 import {FaAddressBook, FaGithub, FaPhone, FaRegAddressCard} from 'react-icons/fa'
 import {MdEmail} from 'react-icons/md'
 const About = () => {
