@@ -9,10 +9,10 @@ const Project = () => {
         <div id='project'>
             <h1 className='text-center font-bold mb-10 lg:text-4xl text-2xl text-[#F65765]'> My Project </h1>
             {/* project one */}
-            <div className='flex lg:flex-row flex-col gap-8 bg-[#1A2739] text-white p-6 border-l-4 border-[#F65765] rounded-md mb-5'>
+            <div className='flex lg:flex-row flex-col gap-8 bg-[#1A2739] text-white p-6 lg:border-l-4 lg:border-b-0 border-b-4 border-[#F65765] rounded-md mb-5'>
                  <img className='lg:w-[40%]  w-full rounded-md' src={project_2} alt="" />
                  <div className='flex-1'>
-                      <h3 className='text-2xl font-extrabold mb-3'>University Department Management website</h3>
+                      <h3 className='text-2xl font-extrabold mb-3 text-[#F65765]'>University Department Management website</h3>
                       <p className='mb-3'>● 📚 এই প্রজেক্টটি একটি Islamic Studies ডিপার্টমেন্টের জন্য তৈরি, যেখানে শিক্ষক ও শিক্ষার্থীদের তথ্য, Routine , Attandance System , Result , Testimonial পরিচালনা করা হয়।</p>
                       <p className='mb-3'>● 🔐 Firebase Authentication দিয়ে লগইন সিস্টেম যুক্ত করা হয়েছে এবং User Role Management (student/teacher) অনুযায়ী আলাদা Dashboard ব্যবহারের সুযোগ রয়েছে।.</p>
                       <p className='mb-3'>● 📄 শিক্ষার্থীরা তাদের একাডেমিক তথ্য যোগ করতে পারে এবং শিক্ষকরা Notice পোস্ট ও পরিচালনা করতে পারে; সব তথ্য MongoDB তে সংরক্ষণ করা হয়।</p>
@@ -31,10 +31,10 @@ const Project = () => {
                  </div>
             </div>
             {/* project two */}
-            <div className='flex lg:flex-row flex-col gap-8 bg-[#1A2739] text-white p-6 border-l-4 border-[#A153E1] rounded-md mb-5'>
+            <div className='flex lg:flex-row flex-col gap-8 bg-[#1A2739] text-white p-6 lg:border-l-4 lg:border-b-0 border-b-4 border-[#A153E1] rounded-md mb-5'>
                  <img className='lg:w-[40%] w-full rounded-md' src={project_1} alt="" />
                  <div className='flex-1'>
-                      <h3 className='text-2xl font-extrabold mb-3'> E-Commerce Website (SPA)  </h3>
+                      <h3 className='text-2xl font-extrabold mb-3 text-[#c796f0]'> E-Commerce Website (SPA)  </h3>
                       <p className='mb-3'>●  একটি সম্পূর্ণ রেসপনসিভ ই-কমার্স ওয়েব অ্যাপ, যেখানে মৌসুমি ফল, রেশন ও কাপড়সহ বিভিন্ন প্রোডাক্ট অনলাইনে অর্ডার করা যায়</p>
                       <p className='mb-3'>●  ইউজার-ফ্রেন্ডলি কার্ট ও চেকআউট সিস্টেম, WhatsApp অর্ডার, লাইট-ডার্ক মোড, ফিডব্যাক স্লাইডার, এবং কাস্টম ক্যাটাগরি যুক্ত করা হয়েছে।</p>
                       <p className='mb-3'>●  React.js, Tailwind CSS ও DaisyUI ব্যবহার করে ডাইনামিক রাউটিংসহ একটি আধুনিক ও দ্রুতগতির UI তৈরি করা হয়েছে।</p>
@@ -49,10 +49,10 @@ const Project = () => {
                  </div>
             </div>
             {/* project three */}
-            <div className='flex lg:flex-row flex-col gap-8 bg-[#1A2739] text-white p-6 border-l-4 border-[#e88c0b] rounded-md mb-5'>
+            <div className='flex lg:flex-row flex-col gap-8 bg-[#1A2739] text-white p-6 lg:border-l-4 lg:border-b-0 border-b-4 border-[#e88c0b] rounded-md mb-5'>
                  <img className='lg:w-[40%] w-full rounded-md' src={project_3} alt="" />
                  <div className='flex-1'>
-                      <h3 className='text-2xl font-extrabold mb-3'>Advocate Portfolio Website</h3>
+                      <h3 className='text-2xl font-extrabold mb-3 text-orange-300'>Advocate Portfolio Website</h3>
                       <p className='mb-3'>● এটি একজন অ্যাডভোকেটের জন্য বানানো একটি প্রফেশনাল ওয়েব অ্যাপ, যেখানে তার সেবাসমূহ, অভিজ্ঞতা ও পরিচিতি উপস্থাপন করা হয়েছে।</p>
                       <p className='mb-3'>● ইউজাররা সহজে “Free Consultation”, Call Now, ও WhatsApp এর মাধ্যমে যোগাযোগ করতে পারে।</p>
                       <p className='mb-3'>● সাইটে রয়েছে FAQ, Testimonial, এবং ১০টি বিস্তারিত বাংলা Blog যা আইন বিষয়ক সচেতনতা বৃদ্ধিতে সহায়ক।</p>
